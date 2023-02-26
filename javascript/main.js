@@ -102,10 +102,9 @@ for (let i=0;i<filterButtons.length;i++) {
     console.log(a.forEach)
 
   //ham-burgur menu onclick show functionality
-  const hmenu = document.querySelector("ham-burger");
+  const hmenu = document.querySelector(".ham-burger");
   hmenu.addEventListener("click", function(){
     document.querySelector(".navbar").classList.toggle("show");
-    alert("hello");
   })
 
 //js
